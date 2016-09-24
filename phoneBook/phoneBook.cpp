@@ -28,8 +28,7 @@ int main()
 	cout << "[D]isplay " << endl;
 	cout << "[Q]uit" << endl;
 	
-if (myPhone[x] != myPhone[x - 1])
-	{
+
 		for (x = 0; x < MAXLEN && (userReply == 'A') || (userReply == 'a'); x++)
 		{
 			for (y = 0; y < MAXCOL && (userReply == 'A') || (userReply == 'a'); y++)
@@ -44,7 +43,7 @@ if (myPhone[x] != myPhone[x - 1])
 				}
 				
 			}
-		}
+		
 	
 		
 		if ((userReply != 'A') && (userReply != 'a') && (userReply != 'D') && (userReply != 'd') && (userReply != 'Q') && (userReply != 'q'))
